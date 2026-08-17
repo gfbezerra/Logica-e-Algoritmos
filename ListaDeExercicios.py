@@ -1,4 +1,4 @@
-//Adição
+#Adição
 
 print ("Adição/Soma")
 
@@ -10,7 +10,7 @@ soma = a + b
 
 print ("Soma = ", soma)
 
-//Subtração
+#Subtração
 
 print ("Subtração")
 
@@ -22,7 +22,7 @@ subtracao = a - b
 
 print ("Subtração = ", subtracao)
 
-//Multiplicação
+#Multiplicação
 
 print ("Multiplicação")
 
@@ -34,7 +34,7 @@ multiplicacao = a * b
 
 print ("Multiplicação = ", multiplicacao)
 
-//Divisão
+#Divisão
 
 print ("Divisão")
 
@@ -46,7 +46,7 @@ divisao = a / b
 
 print ("Divisão = ", divisao)
 
-//Dobro e Triplo
+#Dobro e Triplo
 
 print ("Dobro e Triplo")
 
@@ -60,7 +60,7 @@ triplo = a * 3
 
 print ("O triplo do número ", a, " é igual a: ", triplo)
 
-//Sucessor e Antecessor
+#Sucessor e Antecessor
 
 print ("Sucessor e Antecessor")
 
@@ -74,7 +74,7 @@ antecessor = a - 1
 
 print ("O antecessor do número ",a, " é igual a: ", antecessor)
 
-//Área do Triângulo
+#Área do Triângulo
 
 print ("Área do Triângulo")
 
@@ -86,7 +86,7 @@ area = (a * b)/2
 
 print("A área desse triângulo é de: ", area)
 
-//Perímetro do Retângulo
+#Perímetro do Retângulo
 
 print ("Perímetro do Retângulo")
 
