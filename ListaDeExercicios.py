@@ -101,3 +101,191 @@ d = int(input("Digite a medida do lado 4 do retângulo: "))
 perimetro = a + b + c + d
 
 print ("O perímetro do retângulo é igual a: ", perimetro)
+
+#Positivo, Negativo ou Zero
+
+print("Positivo, Negativo ou Zero")
+
+numero = int(input("Insira um número: "))
+
+if numero > 0:
+  print("O número é POSITIVO")
+
+elif numero < 0:
+  print("O número é NEGATIVO")
+
+elif numero == 0:
+  print("O número é ZERO")
+
+#Par e Ímpar
+
+print("Par e Ímpar")
+
+numero = int(input("Insira um número: "))
+
+if numero % 2 == 0:
+  print("O número é PAR")
+
+else:
+  print("O número é IMPAR")
+
+#Maior entre dois números
+
+print ("Maior entre dois números")
+
+a = int(input("Insira um número: "))
+b = int(input("Insira outro número: "))
+
+if a > b:
+  print("O maior número é: ",a)
+
+else:
+  print("O maior número é: ",b)
+
+#Maior entre três números
+
+print ("Maior entre três números")
+
+a = int(input("Insira um número: "))
+b = int(input("Insira outro número: "))
+c = int(input("Insira outro número: "))
+
+maior = a
+
+if b > maior:
+  maior = b
+
+elif c > maior:
+  maior = c
+
+print("O número maior é: ", maior)
+
+#Quem pode votar?
+
+print ("QUEM PODE VOTAR?")
+
+idade = int(input("Idade: "))
+titulo_eleitor = input("Possui título de eleitor?: ")
+
+if titulo_eleitor.lower() == "sim":
+  titulo_eleitor = True
+
+else:
+  titulo_eleitor = False
+
+if idade >= 16 and titulo_eleitor:
+  print("Pode votar!")
+else:
+    print("Não pode votar!")
+
+#Quem pode dirigir?
+
+print("QUEM PODE DIRIGIR?")
+
+idade = int(input("Idade: "))
+cnh = input("Possui CNH?: ")
+
+if cnh.lower() == "sim":
+  cnh = True
+
+else:
+  cnh = False
+
+if idade >= 18 and cnh:
+  print("Pode dirigir!")
+else:
+  print("Não pode dirigir!")
+
+#10% na compra à vista
+
+print ("10% NA COMPRA À VISTA")
+
+compra = float (input("Valor de compra:"))
+avista = input("À vista?: ")
+
+if avista.lower() == "sim":
+  avista = True
+  avista = compra * 0.10
+else:
+  avista = False
+
+
+
+
+if avista:
+  print("Valor final: R$", compra - avista)
+else:
+  print("Valor sem desconto!")
+
+
+#Declaração de intervalo
+
+print("DECLARAÇÃO DE INTERVALO")
+
+valor = int(input("Digite um valor numérico: "))
+
+if valor >= 10 and valor <= 50:
+  print("O valor está DENTRO do intervalo!")
+else:
+  print("O valor está FORA do inervalo!")
+
+#Senha correta: Cadastro + Autenticação
+
+print("SENHA CORRETA: CADASTRO + AUTENTICAÇÃO")
+
+cadastro = int(input("Cadastre uma nova senha com números apenas: "))
+senha = int(input("Digite sua senha: "))
+
+if cadastro == senha:
+  print("Você fez LOGIN!")
+else:
+  print("Senha INCORRETA!")
+
+#Entrada em um evento: 18 anos e com ingresso
+
+print("ENTRADA DE UM EVENTO: 18 ANOS E COM INGRESSO")
+
+idade = int(input("Qual sua idade?: "))
+ingresso = input("Possui ingresso?: ")s
+
+if ingresso.lower() == "sim":
+  ingresso = True
+else:
+  ingresso = False
+
+if idade >=18 and ingresso:
+  print("Pode entrar!")
+else:
+  print("NÃO pode entrar!")
+
+#Calculadora simples
+
+print("CALCULADORA SIMPLES")
+
+a = float(input("Digite um número: "))
+b = float(input("Digite outro número: "))
+operacao = input("Qual operador?(+, -, * ou /): ")
+
+if (operacao == "+"):
+  print(a + b)
+if (operacao == "-"):
+  print(a - b)
+if (operacao == "*"):
+  print(a * b)
+if (operacao == "/"):
+  print(a / b)
+
+#Aumento de 15% no salário de até R$2000
+
+print("AUMENTO DE 15% NO SALÁRIO DE ATÉ R$2000")
+
+salario = float(input("Digite seu salário mensal: "))
+aumento = float
+                    
+aumento = 15 / 100
+salariofinal = salario + (aumento * salario)
+
+if salario <= 2000.00:
+  print ("Seu salário com aumento é de: R$", salariofinal)
+else: 
+  print("Seu salário não possui aumento previsto!")
