@@ -289,3 +289,68 @@ if salario <= 2000.00:
   print ("Seu salário com aumento é de: R$", salariofinal)
 else: 
   print("Seu salário não possui aumento previsto!")
+
+#Classificacao de idade
+
+print("CLASSIFICACAO DE IDADE")
+
+idade = int(input("Digite sua idade: "))
+crianca = int
+adolescente = int
+adulto = int
+idoso = int
+
+if idade >= 0 and idade <= 12:
+  print("Você é crianca!")
+
+if idade >= 13 and idade <= 17:
+  print("Você é adolescente!")
+
+if idade >= 18 and idade <= 59:
+  print("Você é adulto!")
+
+if idade >= 60:
+    print("Você é idoso!")
+
+#Classificacao de um triângulo
+
+print("CLASSIFICACAO DE UM TRIÂNGULO")
+
+lado1 = float(input("Digite o valor do lado 1: "))
+lado2 = float(input("Digite o valor do lado 2: "))
+lado3 = float(input("Digite o valor do lado 3: "))
+
+if lado1 == lado2 and lado2 == lado3:
+  print("O triângulo é EQUILATERO!")
+
+elif lado1 == lado2 or lado1 == lado3 or lado2 == lado3:
+  print("O triângulo é ISOCELES!")
+
+else:
+    print("O triângulo é ESCALENO!")
+
+#Está chovendo?
+
+print("ESTÁ CHOVENDO?")
+
+resposta = input("Está chovendo?: ").strip().lower()
+
+chovendo = resposta == "sim"
+
+if chovendo == True:
+  print("Está chovendo!")
+
+else:
+  print("NÃO está chovendo!")
+
+#Prática esportiva
+
+print("PRÁTICA ESPORTIVA")
+
+idade = int(input("Digite sua idade: "))
+autorizacao = input("Possui autorizacao?: ").strip().lower()
+
+if idade >= 12 and idade <= 18 and autorizacao == "sim":
+  print("Pode entrar!")
+else: 
+  print("NÃO pode entrar!")
