@@ -324,7 +324,7 @@ if lado1 == lado2 and lado2 == lado3:
   print("O triângulo é EQUILATERO!")
 
 elif lado1 == lado2 or lado1 == lado3 or lado2 == lado3:
-  print("O triângulo é ISOCELES!")
+  print("O triângulo é ISOSCELES!")
 
 else:
     print("O triângulo é ESCALENO!")
