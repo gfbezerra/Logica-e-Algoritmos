@@ -18,7 +18,7 @@ programa {
       
 
     senao se ((lado1 == lado2) ou (lado1 == lado3) ou (lado2 == lado3)){
-      escreva("O triângulo é ISÓCELES")
+      escreva("O triângulo é ISÓSCELES")
    }
       
     
