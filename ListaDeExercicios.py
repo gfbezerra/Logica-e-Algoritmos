@@ -335,7 +335,7 @@ print("ESTÁ CHOVENDO?")
 
 resposta = input("Está chovendo?: ").strip().lower()
 
-chovendo = resposta == "sim"
+chovendo = resposta == "sim" or "nao"
 
 if chovendo == True:
   print("Está chovendo!")
